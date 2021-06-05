@@ -43,10 +43,6 @@ function draw() {
 	  Body.setStatic(starBody, true);
   }
 
-  if (star.x > 80 && starBody.position.x > 80) {
-	  Body.setStatic(starBody, false);
-  }
-
   drawSprites();
 }
 
